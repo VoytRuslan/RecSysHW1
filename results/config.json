@@ -1,0 +1,38 @@
+{
+  "Popular": {},
+  "ItemKNN": {
+    "signal": "pos",
+    "k": 400
+  },
+  "EASE": {
+    "signal": "pos",
+    "reg": 50
+  },
+  "iALS": {
+    "factors": 32,
+    "reg": 0.1,
+    "alpha": 20,
+    "iterations": 12
+  },
+  "iALS custom": {
+    "strength": 0.5,
+    "temperature": 0.5,
+    "k": 5,
+    "factors": 32,
+    "reg": 0.1,
+    "alpha": 20,
+    "iterations": 12
+  },
+  "FM": {
+    "dim": 64,
+    "lr": 0.005,
+    "reg": 0.001,
+    "epochs": 9
+  },
+  "FM (ID)": {
+    "dim": 64,
+    "lr": 0.005,
+    "reg": 0.001,
+    "epochs": 10
+  }
+}
